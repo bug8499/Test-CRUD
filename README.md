@@ -4,10 +4,11 @@ Project setup instructions.
     Email : admin@admin.com
     PAssword : root
 3. สร้าง server ดู Database ตั้งเป็น
+    Server name : pg-db
     localhost : postgres_container
     User : root
     Password : 123456
-    
+
 Key architectural
 1. ใช้ Postgresql เป็น Database
 2. Front-End ใช้ React Vite
