@@ -1,5 +1,5 @@
 FROM node:22-alpine
-WORKDIR /Task-Management/task-frontend
+WORKDIR /task-frontend
 COPY package*.json ./
 RUN npm install
 COPY . .
