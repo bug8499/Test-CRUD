@@ -1,12 +1,12 @@
 Project setup instructions.
 1. รัน docker-compose up เพื่อเริ่มการทำงาน App และ Database
 2. ดู Database ได้จาก pgadmin4 ที่ localhost:5050 ใช้ 
-    Email : admin@admin.com
-    PAssword : root
-3. สร้าง server ดู Database ตั้งเป็น
-    Server name : pg-db
-    localhost : postgres_container
-    User : root
+    Email : admin@admin.com , 
+    Password : root
+3. สร้าง server ดู Database ตั้งเป็น 
+    Server name : pg-db , 
+    localhost : postgres_container , 
+    User : root , 
     Password : 123456
 
 Key architectural
