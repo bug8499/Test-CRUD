@@ -1,7 +1,0 @@
-FROM node:22-alpine
-WORKDIR /Task-Management/task-frontend
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-EXPOSE 5000
